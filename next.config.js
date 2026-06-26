@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
-    serverComponentsExternalPackages: ['@sparticuz/chromium'],
+    serverComponentsExternalPackages: ['puppeteer', '@sparticuz/chromium'],
   },
   webpack: (config) => {
     config.resolve.alias.canvas = false;
