@@ -1,4 +1,6 @@
 import { NextResponse } from 'next/server';
+import puppeteerCore from 'puppeteer-core';
+import chromium from '@sparticuz/chromium';
 
 export async function POST(request) {
   try {
@@ -16,21 +18,21 @@ export async function POST(request) {
 
     // Launch puppeteer based on environment
     let browser;
+
     if (process.env.NODE_ENV === 'production') {
-      const puppeteer = require('puppeteer');
-      const chromium = require('@sparticuz/chromium');
       
-      browser = await puppeteer.launch({
+      browser = await puppeteerCore.launch({
         args: chromium.args,
         defaultViewport: chromium.defaultViewport,
         executablePath: await chromium.executablePath(),
         headless: chromium.headless,
       });
     } else {
-      const puppeteer = require('puppeteer');
-      browser = await puppeteer.launch({
+      const fallbackPath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+      browser = await puppeteerCore.launch({
         headless: 'new',
         args: ['--no-sandbox', '--disable-setuid-sandbox'],
+        executablePath: process.env.CHROME_EXECUTABLE_PATH || fallbackPath,
       });
     }
 
