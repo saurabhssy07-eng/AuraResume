@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server';
-import puppeteer from 'puppeteer';
 
 export async function POST(request) {
   try {
@@ -15,11 +14,25 @@ export async function POST(request) {
 
     console.log('Generating PDF for:', previewUrl);
 
-    // Launch puppeteer
-    const browser = await puppeteer.launch({
-      headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
+    // Launch puppeteer based on environment
+    let browser;
+    if (process.env.NODE_ENV === 'production') {
+      const puppeteerCore = require('puppeteer-core');
+      const chromium = require('@sparticuz/chromium');
+      
+      browser = await puppeteerCore.launch({
+        args: chromium.args,
+        defaultViewport: chromium.defaultViewport,
+        executablePath: await chromium.executablePath(),
+        headless: chromium.headless,
+      });
+    } else {
+      const puppeteer = require('puppeteer');
+      browser = await puppeteer.launch({
+        headless: 'new',
+        args: ['--no-sandbox', '--disable-setuid-sandbox'],
+      });
+    }
 
     const page = await browser.newPage();
     
