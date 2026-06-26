@@ -1,137 +1,310 @@
-# 📝 Aura Resume Builder
+<div align="center">
 
-![Next.js](https://img.shields.io/badge/Next.js-14-black)
-![React](https://img.shields.io/badge/React-18-61DAFB)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
-![Firebase](https://img.shields.io/badge/Firebase-Authentication-orange)
-![License](https://img.shields.io/badge/License-MIT-blue)
+# 📄 AuraResume
 
-👉 **Live Demo:** [https://auraresume-p31i.onrender.com](https://auraresume-p31i.onrender.com)
+### Modern ATS-Friendly Resume Builder with Cloud PDF Export
 
-A modern, full-stack resume builder designed to help users create professional, perfectly-formatted resumes with a seamless user experience. Features a live-updating editor, secure authentication, and a powerful backend-driven PDF export engine.
+[![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev/)
+[![Firebase](https://img.shields.io/badge/Firebase-Authentication-FFCA28?logo=firebase&logoColor=black)](https://firebase.google.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+[![Render](https://img.shields.io/badge/Deploy-Render-46E3B7?logo=render&logoColor=black)](https://render.com/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-## 💡 Why AuraResume?
+A modern, full-stack resume builder that enables users to create professional, ATS-friendly resumes with real-time editing, secure cloud storage, and production-ready PDF export.
 
-Many resume builders lock downloading behind subscriptions. AuraResume was built to provide a modern, ATS-friendly resume builder with free PDF generation, secure cloud storage, and responsive editing.
+### 🌐 Live Demo
 
-## 📸 Screenshots
+**https://auraresume-p31i.onrender.com**
 
-### Login
-*(Add image here)*
+</div>
 
-### Dashboard
-*(Add image here)*
+---
 
-### Resume Editor
-*(Add image here)*
+# ✨ Why AuraResume?
+
+Many online resume builders restrict downloads behind subscriptions or watermark exported resumes.
+
+AuraResume was built to solve this by providing:
+
+- ✅ Professional ATS-friendly resume templates
+- ✅ Secure cloud storage
+- ✅ Google Sign-In authentication
+- ✅ Real-time editing
+- ✅ Production-ready PDF generation
+- ✅ Responsive design
+- ✅ Modern developer-friendly architecture
+
+---
+
+# 📸 Screenshots
+
+## 🔐 Login
+
+![Login](screenshots/login.png)
+
+---
+
+## 📊 Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## ✍️ Resume Editor
+
+![Editor](screenshots/editor.png)
+
+---
+
+## 👀 Resume Preview
+
+![Preview](screenshots/preview.png)
+
+---
+
+
+
+## 👀  View
+
+![View](screenshots/view.png)
+
+---
+
+
+
+## 📄 Downloaded PDF
+
+![PDF](screenshots/pdf.png)
+
+---
+
+# 🚀 Features
+
+### Resume Builder
+
+- Live editing
+- Auto-saving
+- Dynamic resume sections
+- Multiple resume sections
+- Responsive interface
+
+### Authentication
+
+- Google Sign-In using Firebase
+- Secure JWT Authentication
+- Protected Routes
+
+### Database
+
+- MongoDB Atlas
+- Persistent cloud storage
+- Resume history
 
 ### PDF Export
-*(Add image here)*
 
-## 🏗️ Project Architecture
+- Production-ready server-side PDF generation
+- Puppeteer-Core
+- Sparticuz Chromium
+- Print-ready formatting
 
-```text
-React UI
-      │
-      ▼
-Next.js API
-      │
-      ▼
-MongoDB Atlas
+### Deployment
 
-Firebase Authentication
+- Render
+- Environment variable support
+- Cloud-optimized architecture
 
-Puppeteer-Core
-      │
-      ▼
-Professional PDF
+---
+
+# 🏗 Project Architecture
+
+```
+                React Frontend
+                      │
+                      ▼
+                Next.js App Router
+                      │
+      ┌───────────────┼───────────────┐
+      ▼                               ▼
+Firebase Authentication          API Routes
+      │                               │
+      ▼                               ▼
+ Google Login                 MongoDB Atlas
+                                      │
+                                      ▼
+                           Resume Data Storage
+                                      │
+                                      ▼
+                         Puppeteer-Core + Chromium
+                                      │
+                                      ▼
+                              Professional PDF
 ```
 
-## ✨ Features
+---
 
-- **Live Preview Editor:** Instantly see changes as you type with a responsive, side-by-side editing experience.
-- **True PDF Export:** Generates flawless, vector-based PDFs (no blurry images or weird page breaks) using a backend headless Chromium engine.
-- **Dynamic Sections:** Easily add, edit, and reorder custom sections tailored to your professional history.
-- **Secure Authentication:** Seamless login and registration powered by Firebase Authentication.
-- **Cloud Database:** Real-time data persistence using MongoDB to keep your resumes saved and accessible from anywhere.
+# 🛠 Tech Stack
 
-## 🛠️ Tech Stack
+| Frontend | Backend | Database | Authentication | PDF Engine | Deployment |
+|----------|----------|----------|---------------|------------|------------|
+| React 18 | Next.js 14 | MongoDB Atlas | Firebase Authentication | Puppeteer-Core + Sparticuz Chromium | Render |
 
-- **Frontend:** Next.js 14 (App Router), React 18
-- **Backend:** Next.js API Routes, Node.js
-- **Database:** MongoDB (via Mongoose)
-- **Authentication:** Firebase Auth
-- **PDF Generation:** Puppeteer Core + Sparticuz Chromium
-- **Styling:** Vanilla CSS (with modern, responsive design principles)
-- **Icons:** Lucide React
+---
 
-## 🚀 Getting Started
+# 📂 Folder Structure
 
-### Prerequisites
-- Node.js 18+ installed
-- A MongoDB URI (e.g., MongoDB Atlas)
-- A Firebase Project (for Authentication)
-- Google Chrome installed locally (for local PDF generation)
+```
+AuraResume
+│
+├── app
+│   ├── api
+│   ├── editor
+│   ├── preview
+│   └── auth
+│
+├── components
+│
+├── lib
+│
+├── public
+│
+├── screenshots
+│
+├── README.md
+│
+└── package.json
+```
 
-### Installation
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/saurabhssy07-eng/AuraResume.git
-   cd AuraResume
-   ```
+# ⚙ Installation
 
-2. **Install dependencies:**
-   ```bash
-   npm install
-   ```
+## Clone Repository
 
-3. **Set up Environment Variables:**
-   Create a `.env` file in the root directory and add the following variables:
-   ```env
-   # Database
-   MONGODB_URI=your_mongodb_connection_string
+```bash
+git clone https://github.com/saurabhssy07-eng/AuraResume.git
 
-   # Authentication (Firebase)
-   NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
-   NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
-   NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-   NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-   NEXT_PUBLIC_FIREBASE_APP_ID=your_app_id
-   
-   # JWT (For custom auth sessions)
-   JWT_SECRET=your_jwt_secret
-   ```
+cd AuraResume
+```
 
-4. **Run the development server:**
-   ```bash
-   npm run dev
-   ```
+Install dependencies
 
-5. **Open the app:**
-   Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
+```bash
+npm install
+```
 
-## ☁️ Deployment (Render)
+Run development server
 
-This application is optimized for deployment on cloud platforms like [Render](https://render.com). 
+```bash
+npm run dev
+```
 
-### ⚙️ Production Notes
-Implemented cloud-compatible PDF generation using **Puppeteer-Core** and **Sparticuz Chromium** for deployment on Render, ensuring reliable server-side PDF export while avoiding massive bundle sizes and serverless OS-dependency limits. Next.js is configured via `next.config.js` to treat these as external server packages.
+Open
 
-## 🚀 Future Improvements
+```
+http://localhost:3000
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create
+
+```
+.env.local
+```
+
+```
+MONGODB_URI=
+
+JWT_SECRET=
+
+NEXT_PUBLIC_FIREBASE_API_KEY=
+
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+
+---
+
+# 🌍 Deployment
+
+AuraResume is optimized for deployment on **Render**.
+
+Production PDF generation uses
+
+- Puppeteer-Core
+- Sparticuz Chromium
+
+to ensure reliable PDF export in cloud environments.
+
+---
+
+# 🎯 Challenges Solved
+
+One of the biggest challenges was enabling reliable PDF export in a cloud deployment.
+
+This project uses:
+
+- Puppeteer-Core
+- Sparticuz Chromium
+
+instead of the standard Puppeteer package to support serverless/cloud Linux environments.
+
+Additional production issues solved:
+
+- Firebase Authorized Domains
+- MongoDB Atlas Authentication
+- JWT Session Management
+- Render Environment Variables
+- Cloud PDF Rendering
+
+---
+
+# 🚀 Future Roadmap
 
 - AI Resume Suggestions
-- ATS Score Checker
+- ATS Score Analyzer
 - Cover Letter Generator
-- Multiple Resume Themes
+- Multiple Themes
 - Resume Sharing
 - Resume Analytics
+- Resume Import
+- DOCX Export
+- AI Interview Preparation
 
-## 🤝 Contributing
+---
 
-Contributions, issues, and feature requests are welcome! 
+# 👨💻 Developer
 
-## 📝 License
+**Saurabh Singh Yadav**
+
+Computer Science Engineer
+
+Full Stack Developer
+
+GitHub
+
+https://github.com/saurabhssy07-eng
+
+LinkedIn
+
+https://linkedin.com/in/saurabh-singh-yadav-b23252361
+
+---
+
+# 📜 License
 
 This project is licensed under the MIT License.
+
+---
+
+## ⭐ If you found this project useful, consider giving it a Star!
