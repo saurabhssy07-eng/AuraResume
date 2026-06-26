@@ -17,10 +17,10 @@ export async function POST(request) {
     // Launch puppeteer based on environment
     let browser;
     if (process.env.NODE_ENV === 'production') {
-      const puppeteerCore = require('puppeteer-core');
+      const puppeteer = require('puppeteer');
       const chromium = require('@sparticuz/chromium');
       
-      browser = await puppeteerCore.launch({
+      browser = await puppeteer.launch({
         args: chromium.args,
         defaultViewport: chromium.defaultViewport,
         executablePath: await chromium.executablePath(),
