@@ -1,6 +1,51 @@
 # 📝 Aura Resume Builder
 
+![Next.js](https://img.shields.io/badge/Next.js-14-black)
+![React](https://img.shields.io/badge/React-18-61DAFB)
+![MongoDB](https://img.shields.io/badge/MongoDB-Atlas-green)
+![Firebase](https://img.shields.io/badge/Firebase-Authentication-orange)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+👉 **Live Demo:** [https://auraresume-p31i.onrender.com](https://auraresume-p31i.onrender.com)
+
 A modern, full-stack resume builder designed to help users create professional, perfectly-formatted resumes with a seamless user experience. Features a live-updating editor, secure authentication, and a powerful backend-driven PDF export engine.
+
+## 💡 Why AuraResume?
+
+Many resume builders lock downloading behind subscriptions. AuraResume was built to provide a modern, ATS-friendly resume builder with free PDF generation, secure cloud storage, and responsive editing.
+
+## 📸 Screenshots
+
+### Login
+*(Add image here)*
+
+### Dashboard
+*(Add image here)*
+
+### Resume Editor
+*(Add image here)*
+
+### PDF Export
+*(Add image here)*
+
+## 🏗️ Project Architecture
+
+```text
+React UI
+      │
+      ▼
+Next.js API
+      │
+      ▼
+MongoDB Atlas
+
+Firebase Authentication
+
+Puppeteer-Core
+      │
+      ▼
+Professional PDF
+```
 
 ## ✨ Features
 
@@ -71,8 +116,17 @@ A modern, full-stack resume builder designed to help users create professional, 
 
 This application is optimized for deployment on cloud platforms like [Render](https://render.com). 
 
-**Important note for PDF Generation:** 
-The application uses `@sparticuz/chromium` in production to bypass serverless OS-dependency limits. No Dockerfile is required, but ensure your `package.json` relies on `puppeteer-core` rather than the full `puppeteer` package to prevent deployment timeouts and massive bundle sizes. Next.js is configured via `next.config.js` to treat these as external server packages.
+### ⚙️ Production Notes
+Implemented cloud-compatible PDF generation using **Puppeteer-Core** and **Sparticuz Chromium** for deployment on Render, ensuring reliable server-side PDF export while avoiding massive bundle sizes and serverless OS-dependency limits. Next.js is configured via `next.config.js` to treat these as external server packages.
+
+## 🚀 Future Improvements
+
+- AI Resume Suggestions
+- ATS Score Checker
+- Cover Letter Generator
+- Multiple Resume Themes
+- Resume Sharing
+- Resume Analytics
 
 ## 🤝 Contributing
 
