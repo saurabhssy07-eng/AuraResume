@@ -1,0 +1,1642 @@
+{
+  "users": [
+    {
+      "_id": "3eae43d469d62d4c0aa2be70",
+      "name": "Test User",
+      "email": "test@example.com",
+      "password": "$2a$10$cv3u.pDiRMO6ddBj1ng3aOGClJCbofH/MRqT4.oSYSFqI0fVK55sK",
+      "createdAt": "2026-06-23T17:47:45.377Z"
+    },
+    {
+      "_id": "33c6f41b1a173889ca77715f",
+      "name": "Test UserTest User",
+      "email": "test_new@example.com",
+      "password": "$2a$10$QuOUvf5SJEeMWVtK1vBMzORgHUCRpSit9MGqoQyHkbBkvVUZbPh0e",
+      "createdAt": "2026-06-24T13:26:00.441Z"
+    },
+    {
+      "_id": "1e7ead844fd5d708808e6e53",
+      "name": "saurabh",
+      "email": "saurabhssy07@gmail.com",
+      "password": "OAUTH_USER_NO_PASSWORD_REQUIRED",
+      "createdAt": "2026-06-24T13:27:41.102Z"
+    },
+    {
+      "_id": "e9fc3fbd3f31a045ff178375",
+      "name": "SAURABH SINGH YADAV",
+      "email": "saurabh@gmail.com",
+      "password": "$2a$10$kHGkNtQohl5vjx9iI0Fa.uKzF3qVdnqp/KBFnTC.tdIELn8LRWfXG",
+      "createdAt": "2026-06-24T13:29:40.472Z"
+    },
+    {
+      "_id": "946a7594e3f97f01eacfcf2a",
+      "name": "Verify User New",
+      "email": "verify_user_new@example.com",
+      "password": "$2a$10$f7M7oy4hH7mz7Ny2jjisC.MYnqlDbSi0.bKGaLMJNvU4TjuOq7co2",
+      "createdAt": "2026-06-25T17:24:05.754Z"
+    }
+  ],
+  "resumes": [
+    {
+      "_id": "bd210ee42876d4d9856f2412",
+      "userId": "3eae43d469d62d4c0aa2be70",
+      "title": "Test Resume",
+      "template": "classic",
+      "themeColor": "#f59e0b",
+      "fontSize": "15px",
+      "margins": "0.5in",
+      "fontFamily": "Times New Roman",
+      "personalInfo": {
+        "fullName": "Saurabh Singh",
+        "title": "Lead Dev",
+        "email": "fghtfgghfghfghfgh",
+        "phone": "+123456789",
+        "location": "fghfghfghfghfgh",
+        "website": "fghfghfghfghfgh",
+        "github": "fghfghfghfghfghfgh",
+        "linkedin": "hfghfghfghfghfgh",
+        "summary": "Experienced tech lead building full-stack applications with beautiful UI and seamless databases."
+      },
+      "experience": [
+        {
+          "company": "TechCorp",
+          "role": "Senior Engineer",
+          "startDate": "Jan 2022",
+          "endDate": "Present",
+          "description": "Built next-generation microservices and improved performance."
+        },
+        {
+          "company": "WebCorp",
+          "role": "Frontend Dev",
+          "startDate": "June 2020",
+          "endDate": "Dec 2021",
+          "description": ""
+        }
+      ],
+      "education": [
+        {
+          "school": "fghfghfghfghf",
+          "degree": "gfhfghfgh",
+          "startDate": "fghfghfgh",
+          "endDate": "fghfghf",
+          "description": "fghfghfghfghfgh"
+        }
+      ],
+      "skills": [
+        "React",
+        "Node.js",
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML",
+        "SQL",
+        "Git"
+      ],
+      "projects": [
+        {
+          "name": "dfhdfhdfgh",
+          "description": "fghfghfdghfghfgh",
+          "technologies": "fghdfghfdgh",
+          "link": "fghfdghfghfghfghfghfgh"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "gdfgdfgdsfg",
+          "issuer": "dfgdfgdfgdfgdfg",
+          "date": "dfgdfgdfgdfg"
+        },
+        {
+          "name": "",
+          "issuer": "",
+          "date": ""
+        }
+      ],
+      "languages": [
+        "bnvbnvcbnvbnvbn"
+      ],
+      "updatedAt": "2026-06-24T10:13:56.242Z",
+      "lineHeight": "1.15",
+      "sectionSpacing": "15px",
+      "itemSpacing": "10px",
+      "experienceColumns": "1",
+      "sidebarPosition": "left",
+      "educationColumns": "2",
+      "sidebarRatio": "25%",
+      "projectsColumns": "2",
+      "skillsColumns": "5",
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "ats"
+      ]
+    },
+    {
+      "_id": "5a6733ded0f88ccd9b00c6fe",
+      "userId": "3eae43d469d62d4c0aa2be70",
+      "title": "e",
+      "template": "tech",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "",
+        "title": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": [],
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-24T10:13:34.767Z"
+    },
+    {
+      "_id": "262754f1f43d45d3b43036dd",
+      "userId": "3eae43d469d62d4c0aa2be70",
+      "title": "Test Resume",
+      "template": "classic",
+      "themeColor": "#475569",
+      "fontSize": "12px",
+      "margins": "0.75in",
+      "fontFamily": "Playfair Display",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "SAURABH SINGH YADAV",
+        "title": "uiuiuiuiui",
+        "email": "saurabhssy07@gmail.com",
+        "phone": "6388896273",
+        "location": "",
+        "website": "",
+        "github": "saurabhssy07eng",
+        "linkedin": "",
+        "summary": "full stack software developer Test of undo redo system."
+      },
+      "experience": [
+        {
+          "company": "xcbvxc",
+          "role": "xcvxcv",
+          "startDate": "xzcv",
+          "endDate": "xcv",
+          "description": "zxcv"
+        }
+      ],
+      "education": [
+        {
+          "school": "Dr. APJ Abdul kalam university lucknow",
+          "degree": "B.Tech",
+          "startDate": "2022",
+          "endDate": "2026",
+          "description": "completed withourt honers"
+        },
+        {
+          "school": "cbse",
+          "degree": "12th",
+          "startDate": "2020",
+          "endDate": "2021",
+          "description": "with 82%"
+        },
+        {
+          "school": "cbse",
+          "degree": "class 10",
+          "startDate": "2018",
+          "endDate": "2019",
+          "description": "completed with 89%"
+        }
+      ],
+      "skills": [
+        "sdfgjsdghfjhsdgfjhdgfjhfg"
+      ],
+      "projects": [
+        {
+          "name": "ai news detection system",
+          "description": "dgasdfhgsdjfgdsjfasdjkfhgasdjfh",
+          "technologies": "mernstack",
+          "link": "https://newsdetection ssstem"
+        },
+        {
+          "name": "fgjhdgfjhsdgfjsdg",
+          "description": "ksjdfhklsjdflkjdgjkdg",
+          "technologies": "hfsdkjfsdkljfh",
+          "link": "ksdjfksdjfhksjdfh"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "AWS Certified Solutions Architect",
+          "issuer": "Amazon Web Services",
+          "date": "2026",
+          "link": "https://aws.amazon.com/verify",
+          "credentialId": "AWS-CSA-9999"
+        },
+        {
+          "name": "fsidfgidsufgy",
+          "issuer": "flsdhfkjsdfh",
+          "date": "lshdfkjsdfhkjd"
+        },
+        {
+          "name": "kjhlkjdfhgkdjfhg",
+          "issuer": "kfjgdklfghkdfj",
+          "date": "dfhgk;djfghlkdjfgh"
+        }
+      ],
+      "languages": [
+        "kfjhskjdflsjkdfgjlsdgf"
+      ],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-24T09:50:00.759Z"
+    },
+    {
+      "_id": "3081c99e340e3e96487fd0cc",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "software engineer",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "12px",
+      "margins": "0.5in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "SAURABH SINGH YADAV",
+        "title": "",
+        "email": "saurabhssy07@gmail.com",
+        "phone": "06388896273",
+        "location": "",
+        "website": "fdgdsfgdsfgdf",
+        "github": "fgdfgdfg",
+        "linkedin": "dfgdfgdfgdsfg",
+        "summary": "dfgdfgdfgdfg"
+      },
+      "experience": [
+        {
+          "company": "",
+          "role": "",
+          "startDate": "",
+          "endDate": "",
+          "description": ""
+        }
+      ],
+      "education": [
+        {
+          "school": "dfgsdfgdfg",
+          "degree": "dfgsdfgd",
+          "startDate": "dfgdfg",
+          "endDate": "dfgdfg",
+          "description": "dfgdfgdfg"
+        }
+      ],
+      "skills": {
+        "languages": [
+          "sdfgdfgdsfg"
+        ],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": [
+          {
+            "name": "",
+            "value": []
+          }
+        ]
+      },
+      "projects": [
+        {
+          "name": "dsfgdfg",
+          "description": "dfgsdfgsdfgdf",
+          "technologies": "dfgdfg",
+          "link": "dfgdfgdfgdfg"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "sdfgfdg",
+          "issuer": "sdfgdfg",
+          "date": "dfgdfgdf",
+          "link": "dfgsdfg",
+          "credentialId": "sdfgsdfg"
+        },
+        {
+          "name": "",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        }
+      ],
+      "languages": [
+        "sdfgdfg"
+      ],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-25T18:55:05.112Z",
+      "tools": []
+    },
+    {
+      "_id": "4cc7df94c1ba5b38c043da62",
+      "userId": "33c6f41b1a173889ca77715f",
+      "title": "eng",
+      "template": "classic",
+      "themeColor": "#475569",
+      "fontSize": "10px",
+      "margins": "0.25in",
+      "fontFamily": "Roboto",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "4",
+      "experienceColumns": "2",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "SAURABH SINGH YADAV",
+        "title": "Software Developer",
+        "email": "saurabhssy07@gmail.com",
+        "phone": "6388896273",
+        "location": "",
+        "website": "",
+        "github": "https://github.com/saurabhssy07-eng",
+        "linkedin": ": https://linkedin.com/in/saurabh-singh-yadav-b23252361",
+        "summary": "Computer Science Engineering graduate (2026) with hands-on experience developing scalable full-stack web applications using the MERN stack and AI technologies. Built multiple production-style projects including AI-powered news analysis, resume builder, carbon footprint tracker, and e-commerce platform. Strong foundation in Data Structures, REST APIs, MongoDB, authentication, and modern React development. Passionate about building performant software and solving real-world engineering problems."
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "Dr. A. P. J. Abdul Kalam Technical University, Lucknow",
+          "degree": "B.Tech  (CSE)",
+          "startDate": "2022",
+          "endDate": "2026",
+          "description": "",
+          "gpaType": "CGPA",
+          "gpaValue": "7.5"
+        },
+        {
+          "school": "CBSE",
+          "degree": "Class 12th",
+          "startDate": "2020",
+          "endDate": "2021",
+          "description": "",
+          "gpaValue": "78",
+          "gpaType": "Percentage"
+        }
+      ],
+      "skills": [
+        "C",
+        "C++",
+        "JavaScript (ES6)",
+        "Python",
+        "React.js",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "MySQL",
+        "REST APIs",
+        "JWT Authentication",
+        "Google OAuth",
+        "Firebase",
+        "Git",
+        "GitHub",
+        "Postman",
+        "VS Code",
+        "Vercel",
+        "Render",
+        "Responsive Web Design",
+        "Data Structures & Algorithms (DSA)",
+        "Object-Oriented Programming (OOP)",
+        "DBMS",
+        "Operating Systems",
+        "Computer Networks",
+        "Problem Solving"
+      ],
+      "projects": [
+        {
+          "name": "ATS Resume Builder",
+          "description": "• Developed a full-stack ATS-friendly Resume Builder with multiple professional templates and real-time resume preview.\n• Implemented Google OAuth and JWT authentication with secure MongoDB data storage for personalized resume management.\n• Built drag-and-drop section reordering, resume customization, and PDF export functionality with responsive design.\n• Designed RESTful APIs for resume creation, editing, template management, and user profile handling.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, JWT, Google OAuth, PDF Generation",
+          "link": "https://your-resume-builder.vercel.app"
+        },
+        {
+          "name": "NextCart – E-Commerce Platform",
+          "description": "• Developed a scalable MERN-based e-commerce platform featuring secure authentication, product catalog, shopping cart, and order management.\n• Implemented product search, category filtering, responsive UI, and RESTful APIs for inventory and user management.\n• Integrated MongoDB for product and customer data with secure JWT-based authentication.\n• Built reusable React components to improve maintainability and deliver a smooth shopping experience.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs",
+          "link": "https://your-ecommerce.vercel.app"
+        },
+        {
+          "name": "AI Career Mentor",
+          "description": "• Developed an AI-powered career guidance platform that generates personalized learning roadmaps and interview preparation plans.\n• Integrated Google's Gemini API to provide context-aware career recommendations and skill-gap analysis.\n• Designed REST APIs with secure authentication and responsive React frontend.\n• Improved user experience through AI-generated mentorship and personalized career insights.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, Gemini API, REST APIs",
+          "link": "https://your-careermentor.vercel.app"
+        },
+        {
+          "name": "NewsGuard AI – Fake News Detection Platform",
+          "description": "• Built an AI-powered fake news detection platform supporting text, URL, and PDF-based news analysis.\n• Integrated machine learning models using TF-IDF and Logistic Regression for credibility prediction.\n• Designed REST APIs and MongoDB backend with responsive React frontend.\n• Deployed the application on Render with cloud-based backend services and CORS configuration.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, Machine Learning, TF-IDF, Logistic Regression",
+          "link": "https://news-detection-app-gsan.onrender.com"
+        },
+        {
+          "name": "CarbonWise AI",
+          "description": "• Developed an AI-powered sustainability platform that estimates users' carbon footprint from daily activities.\n• Integrated Gemini AI to generate personalized recommendations for reducing environmental impact.\n• Built an interactive dashboard to visualize emissions and sustainability progress.\n• Implemented responsive UI and Firebase integration for scalable data management.",
+          "technologies": "MERN Stack, React.js, Firebase, Gemini API, JavaScript",
+          "link": "https://your-carbonwise.vercel.app"
+        },
+        {
+          "name": "Cloud File Storage System",
+          "description": "• Developed a secure cloud-based file storage application with user authentication and file management features.\n• Built REST APIs for uploading, downloading, and organizing files with MongoDB metadata storage.\n• Implemented responsive React frontend for efficient file management.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB",
+          "link": "https://github.com/saurabhssy07-eng/cloud-storage"
+        }
+      ],
+      "certifications": [
+        {
+          "name": " Introduction to AI       ",
+          "issuer": "GOOGLE",
+          "date": "june 2026",
+          "link": " https://coursera.org/verify/B8EUKURMEG07",
+          "credentialId": ""
+        },
+        {
+          "name": "Data Analytics",
+          "issuer": "Deloitte",
+          "date": "june 2026",
+          "link": "",
+          "credentialId": " 37CjN49yxJNzYWX9t "
+        },
+        {
+          "name": "SQL And Relational Databases",
+          "issuer": "IBM",
+          "date": "june2026",
+          "link": "https://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e",
+          "credentialId": ""
+        },
+        {
+          "name": "Generative AI ",
+          "issuer": " LINKEDIN",
+          "date": "june 2026",
+          "link": "",
+          "credentialId": "f20de5fc3b6fc394a6b0f5af17cffe978a89225170ed39133ebdac4d2ebb18cf"
+        }
+      ],
+      "languages": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-25T17:07:17.881Z",
+      "lineHeight": "1.15",
+      "sectionSpacing": "6px",
+      "itemSpacing": "4px"
+    },
+    {
+      "_id": "46abed999d0046280369526a",
+      "userId": "946a7594e3f97f01eacfcf2a",
+      "title": "ATS Categorized Test Resume",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "",
+        "title": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [
+          "CC++PythonJavaScript"
+        ],
+        "frontend": [
+          "React.jsHTML5CSS3"
+        ],
+        "backend": [
+          "Node.jsExpress.jsRESTAPIs"
+        ],
+        "databases": [
+          "MongoDBMySQL"
+        ],
+        "tools": [
+          "GitGitHubVSCodePostman"
+        ],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [
+          "ProblemSolvingAnalyticalThinkingTeamCollaborationCommunication"
+        ],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-25T19:01:51.732Z",
+      "tools": []
+    },
+    {
+      "_id": "7434814499669ced75644885",
+      "userId": "1e7ead844fd5d708808e6e53",
+      "title": "software engineer",
+      "template": "classic",
+      "themeColor": "#e11d48",
+      "fontSize": "16px",
+      "margins": "0.25in",
+      "fontFamily": "Roboto",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "1",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "SAURABH SINGH YADAV",
+        "title": "",
+        "email": "saurabhssy07@gmail.com",
+        "phone": "6388896273",
+        "location": "",
+        "website": "",
+        "github": "https://linkedin.com/in/saurabh-singh-yadav-b23252361",
+        "linkedin": "https://github.com/saurabhssy07-eng",
+        "summary": "Computer Science Engineering graduate (2026) with hands-on experience developing scalable full-stack web applications using the MERN stack and AI technologies. Built multiple production-style projects including AI-powered news analysis, resume builder, carbon footprint tracker, and e-commerce platform. Strong foundation in Data Structures, REST APIs, MongoDB, authentication, and modern React development. Passionate about building performant software and solving real-world engineering problems."
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "",
+          "degree": "",
+          "startDate": "",
+          "endDate": "",
+          "description": "",
+          "gpaType": "",
+          "gpaValue": ""
+        }
+      ],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-25T18:48:02.373Z",
+      "lineHeight": "1.15"
+    },
+    {
+      "_id": "c4a0cc54b11d3d6517be6e8d",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "Saurabh_Singh_Yadav_Resume",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "local competitive coding time trials.",
+        "title": "• Applied structural logic training to refine the execution speeds of algorithmic programming solutions during",
+        "email": "",
+        "phone": "",
+        "location": "Linux, VS",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "linkedin.com/in/yourprofile  |  github.com/yourusername",
+          "degree": "",
+          "startDate": "",
+          "endDate": "",
+          "description": "Varanasi, Uttar Pradesh, India  |  +91 XXXXX XXXXX  |  email@domain.com\nSAURABH SINGH YADAV\n---------------Page (0) Break----------------\nid\nNeural Networks and Deep Learning | DeepLearning.AI via Coursera — coursera.org/verify/verification-\nverification-id\nMongoDB Certified Developer  | MongoDB University —  university.mongodb.com/course_completion/",
+          "gpaType": "",
+          "gpaValue": ""
+        }
+      ],
+      "skills": {
+        "languages": [
+          "Learning",
+          "Applied Probability & Statistics",
+          "Machine Learning",
+          "Deep",
+          "India"
+        ],
+        "frontend": [],
+        "backend": [],
+        "databases": [
+          "Database Management Systems (MongoDB)."
+        ],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [
+          "Data Structures"
+        ],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [
+        {
+          "name": "highly intuitive modules for junior academic tiers.",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Streamlined instructional workflows to break down complex core data sets and educational syllabi into",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "behaviors (Pratyayas) to evaluate machine translation paradigms.",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Applied computational linguistics concepts to structural parsing rules",
+          "issuer": "analyzing grammatical suffix",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Academic Mentorship & Technical Translation InitiativeLinguistic Analysis Project",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "---------------Page (1) Break----------------",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        }
+      ],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:07:38.207Z"
+    },
+    {
+      "_id": "be97f8ba1999a09fada10ce1",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "SAURABH_SINGH_YADAV (5)",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "----------------Page (0) Break----------------",
+        "title": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:08:04.501Z"
+    },
+    {
+      "_id": "0992289d5557a5128b90da7d",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "SAURABH_SINGH_YADAV",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "----------------Page (0) Break----------------",
+        "title": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:08:20.168Z"
+    },
+    {
+      "_id": "44b9d860c21fc9a947afca2a",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "SAURABH_SINGH_YADAV (4)",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "----------------Page (0) Break----------------",
+        "title": "",
+        "email": "",
+        "phone": "",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:08:35.761Z"
+    },
+    {
+      "_id": "65ecb67808e00c3e5f1ef339",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "Saurabh_Singh (1)",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "----------------Page (0) Break----------------",
+        "title": "",
+        "email": "",
+        "phone": "fgdfgdfgfd",
+        "location": "",
+        "website": "",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:09:01.269Z"
+    },
+    {
+      "_id": "49a55d37269e6c893147146b",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "Saurabh Singh Yadav - Resume (25",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "•  Adaptability",
+        "title": "•  Time Management",
+        "email": "",
+        "phone": "89225170",
+        "location": "",
+        "website": "https://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e",
+        "github": "",
+        "linkedin": "",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "AI-powered web applications. Skilled in building full-stack applications and scalable software solutions.",
+          "degree": "",
+          "startDate": "",
+          "endDate": "",
+          "description": "Computer Science Engineering graduate (2026) with hands-on experience in MERN Stack development, REST APIs, MongoDB, and\nLinkedIn: https://linkedin.com/in/saurabh-singh-yadav-b23252361\nsaurabhsinghyadav431@gmail.com | 8810730454\nSaurabh Singh Yadav\n---------------Page (0) Break----------------",
+          "gpaType": "",
+          "gpaValue": ""
+        }
+      ],
+      "skills": {
+        "languages": [
+          "E-Commerce Website",
+          "Cloud-Based File Storage System",
+          "URL and text analysis",
+          "and AI-powered credibility scoring."
+        ],
+        "frontend": [],
+        "backend": [
+          "REST APIs"
+        ],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [
+        {
+          "name": "Class X (CBSE) - 70%                                          03/2018 - 03/2019",
+          "description": "• Class XII (CBSE) - 70%                                         03/2020 - 03/2021",
+          "technologies": "",
+          "link": ""
+        },
+        {
+          "name": "B.Tech (CSE)",
+          "description": "• Dr. A. P. J. Abdul Kalam Technical University, Lucknow                             2022 - present",
+          "technologies": "",
+          "link": ""
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Core CS: DSA",
+          "issuer": "OOPs",
+          "date": "DBMS",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Tools: Git",
+          "issuer": "GitHub",
+          "date": "VS Code",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Databases: MongoDB",
+          "issuer": "MySQL",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Backend: Node.js",
+          "issuer": "Express.js",
+          "date": "REST APIs",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Frontend: React.js",
+          "issuer": "HTML5",
+          "date": "CSS3",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Languages: C",
+          "issuer": "C++",
+          "date": "Python",
+          "link": "",
+          "credentialId": ""
+        }
+      ],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:12:43.292Z"
+    },
+    {
+      "_id": "e74c3c96d956cdbd0be39dfe",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "Saurabh Singh Yadav - Resume (25",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "Saurabh Singh Yadav\\n saurabhsinghyadav431@gmail.com | 8810730454\\nLinkedIn: https://linkedin.com/in/saurabh-singh-yadav-b23252361\\nComputer Science Engineering graduate (2026) with hands-on experience in MERN Stack development, REST APIs, MongoDB, and\\nAI-powered web applications. Skilled in building full-stack applications and scalable software solutions.\\n Education\\nDr. A. P. J. Abdul Kalam Technical University, Lucknow  2022 - present\\nB.Tech (CSE)\\nClass XII (CBSE) - 70% 03/2020 - 03/2021\\nClass X (CBSE) - 70% 03/2018 - 03/2019\\n Projects\\n NewsGuard AI – Fake News Detection Platform\\n • Developed a MERN-stack application for fake news detection, URL and text analysis, REST APIs, and AI-powered credibility scoring.\\n• GitHub: github.com/saurabhssy07-eng/News_Detection_App\\n• Live Demo: https://news-detection-app-gsan.onrender.com/\\n Cloud-Based File Storage System\\n • Secure file upload and management application with authentication and MongoDB integration.\\n E-Commerce Website\\n • Responsive e-commerce web application with product listing and shopping cart functionality.\\n TECHNICAL SKILLS\\n • Languages: C, C++, Python, JavaScript\\n• Frontend: React.js, HTML5, CSS3\\n• Backend: Node.js, Express.js, REST APIs\\n• Databases: MongoDB, MySQL\\n• Tools: Git, GitHub, VS Code, Postman\\n• Core CS: DSA, OOPs, DBMS, OS, Computer Networks\\n Certifications\\n • GOOGLE: Introduction to AI   verify at: https://coursera.org/verify/B8EUKURMEG07\\n• Deloitte: Data Analytics   User Verification Code 37CjN49yxJNzYWX9t\\n• IBM : SQL And Relational Databases 101.   Verify at\\nhttps://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e\\n• LINKEDIN: Generative AI   id: f20de5fc3b6fc394a6b0f5af17cffe978a89225170ed39133ebdac4d2ebb18cf\\n SOFT SKILLS\\n • Problem Solving\\n• Analytical Thinking\\n• Team Collaboration\\n• Communication\\n• Time Management\\n• Adaptability\\n",
+        "title": "",
+        "email": "saurabhsinghyadav431@gmail.com",
+        "phone": "8810730454",
+        "location": "MERN Stack development, RE",
+        "website": "https://news-detection-app-gsan.onrender.com/\\n",
+        "github": "github.com/saurabhssy07-eng/News_Detection_App\\n•",
+        "linkedin": "https://linkedin.com/in/saurabh-singh-yadav-b23252361\\nComputer",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [],
+      "skills": {
+        "languages": [],
+        "frontend": [],
+        "backend": [],
+        "databases": [],
+        "tools": [],
+        "cloud": [],
+        "coreCs": [],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [],
+      "certifications": [],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:24:24.040Z"
+    },
+    {
+      "_id": "7b641e57650738234c239632",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "Saurabh Singh Yadav - Resume (25",
+      "template": "classic",
+      "themeColor": "#3b82f6",
+      "fontSize": "14px",
+      "margins": "1in",
+      "fontFamily": "Inter",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "1",
+      "personalInfo": {
+        "fullName": "Saurabh Singh Yadav",
+        "title": "",
+        "email": "saurabhsinghyadav431@gmail.com",
+        "phone": "8810730454",
+        "location": "MERN Stack development, RE",
+        "website": "",
+        "github": "",
+        "linkedin": "https://linkedin.com/in/saurabh-singh-yadav-b23252361",
+        "summary": ""
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "Dr. A. P. J. Abdul Kalam Technical University",
+          "degree": "Lucknow",
+          "startDate": "2022",
+          "endDate": "present",
+          "description": "B.Tech (CSE)",
+          "gpaType": "",
+          "gpaValue": ""
+        },
+        {
+          "school": "Class XII (CBSE)",
+          "degree": "70%",
+          "startDate": "03/2020",
+          "endDate": "03/2021",
+          "description": "",
+          "gpaType": "Percentage",
+          "gpaValue": "70%"
+        },
+        {
+          "school": "Class X (CBSE)",
+          "degree": "70%",
+          "startDate": "03/2018",
+          "endDate": "03/2019",
+          "description": "",
+          "gpaType": "Percentage",
+          "gpaValue": "70%"
+        }
+      ],
+      "skills": {
+        "languages": [
+          "C",
+          "C++",
+          "Python",
+          "JavaScript",
+          "Languages: C"
+        ],
+        "frontend": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "Frontend: React.js"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js",
+          "REST APIs",
+          "Backend: Node.js"
+        ],
+        "databases": [
+          "MongoDB",
+          "MySQL",
+          "Databases: MongoDB"
+        ],
+        "tools": [
+          "Git",
+          "GitHub",
+          "VS Code",
+          "Postman",
+          "Tools: Git"
+        ],
+        "cloud": [],
+        "coreCs": [
+          "DSA",
+          "OOPs",
+          "DBMS",
+          "OS",
+          "Computer Networks",
+          "Core CS: DSA"
+        ],
+        "softSkills": [],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [
+        {
+          "name": "NewsGuard AI",
+          "description": "• Developed a MERN-stack application for fake news detection, URL and text analysis, REST APIs, and AI-powered credibility scoring.\n• GitHub: github.com/saurabhssy07-eng/News_Detection_App\n• Live Demo: https://news-detection-app-gsan.onrender.com/",
+          "technologies": "Fake News Detection Platform",
+          "link": "https://news-detection-app-gsan.onrender.com/"
+        },
+        {
+          "name": "Cloud-Based File Storage System",
+          "description": "• Secure file upload and management application with authentication and MongoDB integration.",
+          "technologies": "",
+          "link": ""
+        },
+        {
+          "name": "E-Commerce Website",
+          "description": "• Responsive e-commerce web application with product listing and shopping cart functionality.",
+          "technologies": "",
+          "link": ""
+        }
+      ],
+      "certifications": [
+        {
+          "name": "GOOGLE: Introduction to AI   verify at: https://coursera.org/verify/B8EUKURMEG07",
+          "issuer": "",
+          "date": "",
+          "link": "https://coursera.org/verify/B8EUKURMEG07",
+          "credentialId": ""
+        },
+        {
+          "name": "Deloitte: Data Analytics   User Verification Code 37CjN49yxJNzYWX9t",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "IBM : SQL And Relational Databases 101.   Verify at",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "https://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e",
+          "issuer": "",
+          "date": "",
+          "link": "https://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e",
+          "credentialId": ""
+        },
+        {
+          "name": "LINKEDIN: Generative AI   id: f20de5fc3b6fc394a6b0f5af17cffe978a89225170ed39133ebdac4d2ebb18cf",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "SOFT SKILLS",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Problem Solving",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Analytical Thinking",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Team Collaboration",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Communication",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Time Management",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        },
+        {
+          "name": "Adaptability",
+          "issuer": "",
+          "date": "",
+          "link": "",
+          "credentialId": ""
+        }
+      ],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T05:41:15.385Z"
+    },
+    {
+      "_id": "495e63fc8f8dc2f610130ab7",
+      "userId": "e9fc3fbd3f31a045ff178375",
+      "title": "s",
+      "template": "harvard",
+      "themeColor": "#3b82f6",
+      "fontSize": "10px",
+      "margins": "0.25in",
+      "fontFamily": "Lora",
+      "sidebarRatio": "30%",
+      "sidebarPosition": "left",
+      "skillsColumns": "3",
+      "experienceColumns": "1",
+      "projectsColumns": "1",
+      "educationColumns": "2",
+      "personalInfo": {
+        "fullName": "SAURABH SINGH YADAV",
+        "title": "Software Developer",
+        "email": "saurabhssy07@gmail.com",
+        "phone": "6388896273",
+        "location": "",
+        "website": "",
+        "github": "https://github.com/saurabhssy07-eng",
+        "linkedin": " https://linkedin.com/in/saurabh-singh-yadav-b23252361",
+        "summary": "Computer Science Engineering graduate (2026) with hands-on experience building scalable full-stack web\napplications using the MERN stack and AI technologies. Experienced in React.js, Node.js, Express.js, MongoDB,\nREST APIs, authentication, and cloud deployment. Developed multiple production-style projects including\nAI-powered applications, an ATS Resume Builder, an E-Commerce platform, NewsGuard AI, AI Career Mentor, and\nCarbonWise AI. Strong foundation in Data Structures, Algorithms, OOP, DBMS, Operating Systems, and Computer\nNetworks."
+      },
+      "experience": [],
+      "education": [
+        {
+          "school": "Dr. A. P. J. Abdul Kalam Technical University, Lucknow",
+          "degree": "B.Tech (CSE)",
+          "startDate": "2022",
+          "endDate": "2026",
+          "description": "",
+          "gpaType": "CGPA",
+          "gpaValue": "7.5"
+        },
+        {
+          "school": "CBSE",
+          "degree": "Class 12th",
+          "startDate": "2020",
+          "endDate": "2021",
+          "description": "",
+          "gpaType": "Percentage",
+          "gpaValue": "82"
+        }
+      ],
+      "skills": {
+        "languages": [
+          "C",
+          "C++",
+          "JavaScript (ES6)",
+          "Python"
+        ],
+        "frontend": [
+          "React.js",
+          "HTML5",
+          "CSS3",
+          "Tailwind CSS"
+        ],
+        "backend": [
+          "Node.js",
+          "Express.js"
+        ],
+        "databases": [
+          "MongoDB",
+          "MySQL"
+        ],
+        "tools": [
+          "Git",
+          "GitHub",
+          "Postman",
+          "VS Code"
+        ],
+        "cloud": [
+          "Firebase",
+          "Vercel",
+          "Render"
+        ],
+        "coreCs": [
+          "Data Structures & Algorithms",
+          "OOP",
+          "DBMS",
+          "Operating Systems",
+          "Computer Networks"
+        ],
+        "softSkills": [
+          "Problem Solving •  Analytical Thinking •  Team Collaboration •  Communication •  Time Management •  Adaptability"
+        ],
+        "customTech": [],
+        "customSoft": []
+      },
+      "projects": [
+        {
+          "name": "ATS Resume Builder",
+          "description": "• Developed a full-stack ATS-friendly Resume Builder with multiple professional templates and real-time resume preview.\n• Implemented Google OAuth and JWT authentication with secure MongoDB data storage for personalized resume management.\n• Built drag-and-drop section reordering, resume customization, and PDF export functionality with responsive design.\n• Designed RESTful APIs for resume creation, editing, template management, and user profile handling.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, JWT, Google OAuth, PDF Generation",
+          "link": "https://your-resume-builder.vercel.app"
+        },
+        {
+          "name": "NextCart – E-Commerce Platform",
+          "description": "• Developed a scalable MERN-based e-commerce platform featuring secure authentication, product catalog, shopping cart, and order management.\n• Implemented product search, category filtering, responsive UI, and RESTful APIs for inventory and user management.\n• Integrated MongoDB for product and customer data with secure JWT-based authentication.\n• Built reusable React components to improve maintainability and deliver a smooth shopping experience.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, JWT Authentication, REST APIs",
+          "link": "https://your-ecommerce.vercel.app"
+        },
+        {
+          "name": "AI Career Mentor",
+          "description": "• Developed an AI-powered career guidance platform that generates personalized learning roadmaps and interview preparation plans.\n• Integrated Google's Gemini API to provide context-aware career recommendations and skill-gap analysis.\n• Designed REST APIs with secure authentication and responsive React frontend.\n• Improved user experience through AI-generated mentorship and personalized career insights.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, Gemini API, REST APIs",
+          "link": "https://github.com/saurabhssy07-eng/AI-Career-Mentor-Agent"
+        },
+        {
+          "name": "NewsGuard AI – Fake News Detection Platform",
+          "description": "• Built an AI-powered fake news detection platform supporting text, URL, and PDF-based news analysis.\n• Integrated machine learning models using TF-IDF and Logistic Regression for credibility prediction.\n• Designed REST APIs and MongoDB backend with responsive React frontend.\n• Deployed the application on Render with cloud-based backend services and CORS configuration.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB, Machine Learning, TF-IDF, Logistic Regression",
+          "link": "https://news-detection-app-gsan.onrender.com/"
+        },
+        {
+          "name": "CarbonWise AI",
+          "description": "• Developed an AI-powered sustainability platform that estimates users' carbon footprint from daily activities.\n• Integrated Gemini AI to generate personalized recommendations for reducing environmental impact.\n• Built an interactive dashboard to visualize emissions and sustainability progress.\n• Implemented responsive UI and Firebase integration for scalable data management.",
+          "technologies": "MERN Stack, React.js, Firebase, Gemini API, JavaScript",
+          "link": "https://carbon-wise-ai-liard.vercel.app/"
+        },
+        {
+          "name": "Cloud File Storage System",
+          "description": "• Developed a secure cloud-based file storage application with user authentication and file management features.\n• Built REST APIs for uploading, downloading, and organizing files with MongoDB metadata storage.\n• Implemented responsive React frontend for efficient file management.",
+          "technologies": "MERN Stack, React.js, Node.js, Express.js, MongoDB",
+          "link": "https://github.com/saurabhssy07-eng/cloud-storage"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Introduction to AI",
+          "issuer": "Google (Coursera)",
+          "date": "June 2026",
+          "link": " https://coursera.org/verify/B8EUKURMEG07",
+          "credentialId": ""
+        },
+        {
+          "name": "Data Analytics",
+          "issuer": "Deloitte",
+          "date": "June 2026",
+          "link": "",
+          "credentialId": "37CjN49yxJNzYWX9t"
+        },
+        {
+          "name": "SQL & Relational Databases",
+          "issuer": "IBM",
+          "date": "June 2026",
+          "link": "https://courses.cognitiveclass.ai/certificates/1f222f30f6a54077abfccf2d4e839e3e",
+          "credentialId": ""
+        },
+        {
+          "name": "Generative AI",
+          "issuer": "LinkedIn",
+          "date": "June 2026",
+          "link": "",
+          "credentialId": "f20de5fc3b6fc394a6b0f5af17cffe978a89225170ed39133ebdac4d2ebb18cf"
+        }
+      ],
+      "languages": [],
+      "tools": [],
+      "sectionOrder": [
+        "personal",
+        "experience",
+        "education",
+        "projects",
+        "skills",
+        "certs",
+        "tools",
+        "softSkills",
+        "ats"
+      ],
+      "customSections": [],
+      "updatedAt": "2026-06-26T06:58:09.477Z",
+      "itemSpacing": "4px",
+      "lineHeight": "1.15",
+      "sectionSpacing": "6px"
+    }
+  ]
+}
